@@ -1,0 +1,4 @@
+for name in `ls *.bam`; do 
+placeholder1=`basename $name .bam`
+bamCoverage -b $placeholder1.bam --normalizeUsing CPM -o 1_Big_Wig/$placeholder1.bw;
+done

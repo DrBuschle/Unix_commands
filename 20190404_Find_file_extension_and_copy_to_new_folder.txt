@@ -1,5 +1,0 @@
-cd /Volumes/AlexEverything/7_Alex_Self_made_Bioinformatics/Capture-C_triplicates/1_Demultiplexed_data/0_Flashed_and_RestDig/0_Bowtie_mapped/0_CCanalysed/Cap-C_2_6h_CC2/1_Original_files
-
-for i in `ls *.sam`;do
-cp $i ../2_SAMs;
-done
