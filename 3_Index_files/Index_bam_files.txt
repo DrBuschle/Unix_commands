@@ -1,0 +1,1 @@
+samtools13 index X.bam
