@@ -1,1 +1,1 @@
-bamCoverage -b X.bam --normalizeUsing CPM -o X.bw
+samtools13 view -b X.SAM > X.BAM

@@ -1,0 +1,2 @@
+ls *_pattern_*.sam|grep -v 'pattern2'
+
