@@ -1,2 +1,0 @@
-head -n 500 file.txt
-tail -n 500 file.txt

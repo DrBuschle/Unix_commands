@@ -1,3 +1,0 @@
-#gets rid of the .extension stored in name
-
-placeholder=`basename $name .extension`

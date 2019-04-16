@@ -1,3 +1,0 @@
-# list directories only
-
-ls -d */

@@ -1,1 +1,0 @@
-samtools13 view -b X.SAM > X.BAM
