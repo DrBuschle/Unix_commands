@@ -1,0 +1,5 @@
+# general code for this
+
+seqret -feature -osformat2 gff3 -outseq input.gff output.gb
+
+https://www.biostars.org/p/140013/
