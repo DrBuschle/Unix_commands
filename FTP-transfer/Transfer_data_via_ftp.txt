@@ -1,0 +1,31 @@
+# How to connect to a ftp server
+
+cd your/path/with/your/file
+
+ftp you_ftp_connection_of_choise
+
+username
+password
+
+
+
+#How to upload something via ftp
+
+
+cd the/path/where/yourfile/should/go/on/the/server
+
+tick 	# type this to make sure you get to see some progress later on
+
+put yourfile.ending
+
+
+
+
+
+#How to download something via ftp
+
+cd the/path/where/to/get/your/file/from/the/server
+
+tick 	# type this to make sure you get to see some progress later on
+
+get yourfile.ending
