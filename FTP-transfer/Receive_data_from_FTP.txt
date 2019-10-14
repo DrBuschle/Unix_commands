@@ -1,0 +1,18 @@
+#How to download something via ftp
+
+# 1 file
+
+get yourfile.extension
+
+
+# Several files
+
+prompt	# this makes sure you don't have to confirm every transfer separately
+mget *.extension
+
+
+
+# How to delete something from a ftp server
+
+delete # deletes file
+mdelete *.files_extension  # delete several files with the same extension

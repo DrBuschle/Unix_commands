@@ -1,0 +1,9 @@
+# Send files to FTP server
+
+# 1 file
+put yourfile.extension
+
+# several files
+prompt	# this makes sure you don't have to confirm every transfer separately
+mput *.extension
+

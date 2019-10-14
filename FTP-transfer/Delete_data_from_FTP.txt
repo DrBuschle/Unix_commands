@@ -1,0 +1,9 @@
+# How to delete data from a ftp server
+
+
+# 1 file
+delete filename	# deletes file
+
+# Several files
+prompt	# this makes sure you don't have to confirm every transfer separately
+mdelete *.extension  # deletes several files with the same extension

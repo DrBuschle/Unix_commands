@@ -1,0 +1,38 @@
+# How to connect to a ftp server
+
+# install ftp on Mac High Sierra:
+#brew install tnftp
+
+
+#set the path to the files you want to transfer
+
+cd your/path/with/your/file
+
+ftp your_ftp_connection_of_choise
+# e.g ftp ftp-private.ebi.ac.uk
+
+# enter user name
+username
+
+# enter password
+password
+
+
+
+
+#Upload data
+
+# set working directory on the ftp server
+
+cd the/path/where/yourfile/should/go/on/the/server
+
+
+# get a visual progress output
+
+tick 	# on linux: type this to make sure you get to see some progress later on
+trace	# on mac
+
+
+# avoid to confirm every trasnfer (especially useful for multiple file transfers)
+
+prompt	# on mac

@@ -1,0 +1,3 @@
+# See processes running on the server as well as core and memory usage
+
+htop
