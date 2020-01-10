@@ -17,3 +17,10 @@ cd $name
 md5 *.file_extension >> ../MD5_hashes.txt
 cd ..;
 done
+
+
+
+
+for name in `ls *.fastq.gz`; do 
+md5 $name >> MD5_hashes.txt;
+done
