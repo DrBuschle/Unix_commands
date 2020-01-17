@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# NO whitespaces allowed around the = sign
+
 ### ' assigns all values to a variable
 variables='ls'
 
@@ -9,3 +11,4 @@ variable=`ls`
 # use variable
 
 $variable
+$variables
