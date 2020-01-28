@@ -1,0 +1,15 @@
+# Copy files from a local unix system to a linux server   
+ 
+
+# single file
+
+scp -r -P YOURPORT_NUMBER /local/path/on/your/computer/YOUR_FILE.FILE_EXTENSION ACCOUNT_NAME@SERVER_IP:/path/on/the/linux/server
+
+
+# several files with the same extension
+
+cd /local/path/on/your/computer
+
+for file in `ls *.file_extension`;do
+  scp -i .ssh/id_rsa -P YOURPORT_NUMBER /local/path/on/your/computer$file ACCOUNT_NAME@SERVER_IP:/path/on/the/linux/server;
+done

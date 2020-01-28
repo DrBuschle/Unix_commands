@@ -1,0 +1,6 @@
+# Copy files from a linux server to a local unix system  
+ 
+
+# single file
+
+scp -r -P YOURPORT_NUMBER ACCOUNT_NAME@SERVER_IP:/path/on/the/linux/server/YOUR_FILE.FILE_EXTENSION /local/path/on/your/computer/
