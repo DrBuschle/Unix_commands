@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+# extract genetic location from a bam file
+# !!!! use a sorted and index file !!!!
+
+
+
+# complete chromsome
+
+samtools view -b Your_File.bam chr1 > chr1.bam		# -b tells the output is in bam format
+
+
+
+# a very specific region
+
+samtools view -b Your_File.bam chr1:Startposition-EndPosition > YourSpecificPosition.bam		# -b tells the output is in bam format
