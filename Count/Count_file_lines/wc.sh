@@ -2,7 +2,7 @@
 
 # count the lines of a file
 
-wc -l
+wc -l filename.extension
 
 
 # count the lines a files ending on a extension and writing them to a file
