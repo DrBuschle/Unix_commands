@@ -1,7 +1,7 @@
 # How to connect to a ftp server
 
 # install ftp on Mac High Sierra:
-#brew install tnftp
+# brew install tnftp
 
 
 #set the path to the files you want to transfer
