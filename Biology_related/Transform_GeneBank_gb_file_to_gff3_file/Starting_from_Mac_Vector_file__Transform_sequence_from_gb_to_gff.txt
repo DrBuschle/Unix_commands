@@ -1,0 +1,7 @@
+# open MacVector (.nucl) file
+# export as GenBanb flat file (.gb)
+
+# transform GenBank file to gff format
+seqret -feature -osformat2 gff3 -outseq Output.gff Input.gb
+
+
