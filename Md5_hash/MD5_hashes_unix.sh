@@ -21,6 +21,3 @@ done
 
 
 
-for name in `ls *.fastq.gz`; do 
-md5 $name >> MD5_hashes.txt;
-done
