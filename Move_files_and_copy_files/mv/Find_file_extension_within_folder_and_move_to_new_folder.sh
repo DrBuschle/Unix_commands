@@ -5,11 +5,13 @@
 
 
 # quick
-cp `ls *_.tiff` move/here/
+mv `ls *_.tiff` move/here/
 
 
 # as loop
 
-for copyfile in `ls *.sam`;do
-cp $copyfile ../2_SAMs;
+for movefile in `ls *.sam`;do
+mv $movefile ../2_SAMs;
 done
+
+
